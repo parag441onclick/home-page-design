@@ -1,0 +1,722 @@
+body {
+  font-size: 20px;
+}
+
+.main-page {
+  padding: 0 8%;
+}
+
+input {
+  color: white !important;
+}
+
+.search {
+  display: none !important;
+}
+
+select {
+  margin-right: 20px;
+  background: transparent !important;
+  border: 0px !important;
+  color: white;
+}
+
+option {
+  background: none !important;
+}
+
+.bg-primary {
+  background-color: #3885bf !important;
+}
+
+header {
+  color: white;
+  font-size: 20px !important;
+}
+
+.nav-header {
+  text-decoration: none !important;
+  color: white;
+}
+
+.sell-button {
+  text-decoration: none !important;
+  color: white;
+  border: solid 1px white;
+  border-radius: 25px;
+  padding: 12px;
+  width: 200px;
+  height: 150px;
+  margin-right: 15px;
+}
+
+.sell-button:hover {
+  color: white !important;
+}
+
+.nav-left {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin-right: 30%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-header:hover {
+  color: white;
+}
+
+.header {
+  background-size: 100% 70% !important;
+  height: 157vh;
+  width: 100%;
+}
+
+.upper-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 10%;
+}
+
+.divider {
+  border: 1px solid white;
+}
+
+.popular-images {
+  margin-top: 0%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.25em;
+  padding: 0% 10%;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home-block {
+  margin-top: -30%;
+}
+
+.featured-business-heading {
+  font-weight: bold !important;
+}
+
+.featured-business-categories {
+  font-weight: bold !important;
+}
+
+.image-categories-heading {
+  padding: 10% 0%;
+  font-weight: 600;
+}
+
+.business-locations-heading {
+  font-weight: bold !important;
+}
+
+.location-image {
+  margin-top: 4%;
+  background-image: 100% 100% !important;
+  width: 20% !important;
+}
+
+.map-maker {
+  width: 20%;
+}
+
+.city-cards {
+  margin-top: 5%;
+}
+
+.featured-franchise {
+  margin-top: 5%;
+}
+
+.featured-city-cards {
+  margin-top: 5%;
+  flex-wrap: none;
+}
+
+.mid-market-business-cards {
+  margin-top: 5%;
+  flex-wrap: none;
+}
+
+.business-categories {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.btn-bs-img {
+  background-color: #ddd;
+  border: none;
+  color: white !important;
+  background-color: #3885bf !important;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px !important;
+}
+
+.btn-bs-img2 {
+  background-color: #ddd;
+  border: none;
+  color: #3885bf !important;
+  background-color: white !important;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 28px;
+  font-weight: 600;
+}
+
+.btn-bs-img-blcok2 {
+  border: none;
+  color: white !important;
+  background-color: #3885bf !important;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 25px !important;
+  align-self: center;
+  font-weight: 600;
+}
+
+.market-categories {
+  padding-bottom: 5%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.state-images {
+  margin-top: 8%;
+}
+
+.state-heading {
+  text-align: center;
+  margin-top: 30%;
+  color: white;
+}
+
+.description {
+  margin-top: 10%;
+  text-align: center;
+  margin-left: -10% !important;
+  width: 120% !important;
+  display: flex;
+  flex-direction: row;
+  padding: 4%;
+}
+
+/*-------------------------------------------------------*/
+
+.site-footer {
+  background-color: #3885bf;
+  padding: 45px 0 20px;
+  font-size: 12px !important;
+  line-height: 24px;
+  color: white;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: white;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+.footer-links:hover {
+  color: white !important;
+}
+
+.footer-links:active {
+  color: white !important;
+}
+
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: white;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin-left: 60%;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+.footer-links {
+  text-decoration: underline;
+}
+
+.advice-cards {
+  display: flex;
+  margin-top: 2%;
+}
+
+.card-para {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 4% !important;
+}
+
+.card-body {
+  padding: 0rem !important;
+  text-align: left !important;
+}
+
+.main-card-para {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 4%;
+}
+
+.lower-card-para {
+  font-size: 15px;
+  margin-top: 4%;
+  margin-bottom: 4% !important;
+}
+
+.card-body {
+  padding: 0% 4% 0% 4% !important;
+}
+
+.featured-card-body {
+  padding: 0% 4% 10% 4% !important;
+  text-align-last: center;
+  font-weight: 500;
+}
+
+.card-footer-heading {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.u-business-advice-card {
+  width: 50%;
+}
+
+.l-business-advice-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: 2%;
+  justify-content: space-between !important;
+}
+
+.selling-heading {
+  font-weight: bold !important;
+}
+
+.b-advice-heading {
+  font-weight: bold !important;
+  font-size: xx-large !important;
+}
+
+.card-body {
+  padding: 10% !important;
+}
+
+.featured-business-body {
+  font-weight: 600 !important;
+}
+
+.featured-business-card {
+  width: 24rem;
+  height: 12em;
+  box-shadow: 0 8px 6px -4px #939292;
+  background: url("assets/img.png");
+  margin-top: 4%;
+  background-size: 100% 100% !important;
+}
+
+.mid-market-heading {
+  font-weight: bold !important;
+}
+
+.mid-market-header {
+  font-weight: 700 !important;
+}
+
+.mid-market-card {
+  width: 25%;
+  box-shadow: -10px 10px #3885bf;
+  margin-top: 4%;
+  background: #007bff1f;
+  align-self: center;
+}
+
+.mid-market-body {
+  text-align-last: center !important;
+  display: flex !important;
+}
+
+.view-all {
+  width: 200% !important;
+}
+
+.mid-market-footer {
+  display: flex;
+}
+
+.sell-card {
+  background-size: cover;
+  text-align: center;
+  height: 25vh;
+  width: 25%;
+  margin-left: 2px;
+  border-radius: 25px;
+}
+
+.business-sell-card {
+  flex-direction: row;
+}
+
+.home-heading {
+  background: transparent;
+  width: 100%;
+  padding: 0% 20%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.search-query {
+  background: transparent !important;
+  border: solid white 1px !important;
+  border-radius: 60px !important;
+  width: 20em !important;
+}
+
+.query-block {
+  width: 42% !important;
+}
+
+::placeholder {
+  color: white !important;
+  font-size: large !important;
+  opacity: 1;
+}
+
+.card-inner-body {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.franchise-heading {
+  font-weight: bold !important;
+}
+
+.block2-heading {
+  font-weight: bold !important;
+}
+
+.block2-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2% !important;
+}
+
+.franchise-images {
+  background-size: 40% 40% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  box-shadow: -5px 8px 6px -6px black;
+}
+
+.query-button {
+  border-radius: 25px !important;
+  padding: 0% 9% !important;
+  border-style: none !important;
+  margin-left: -27px !important;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.footer-header {
+  font-weight: bold;
+}
+
+.footer-list {
+  margin-top: 5%;
+}
+
+.footer-item {
+  margin-top: 2%;
+}
+
+.container {
+  padding: 5% 0% !important;
+}
+
+.copyright-block {
+  padding: 1% 0%;
+  text-align-last: center;
+}
+
+.text-justify {
+  margin-top: 4% !important;
+}
+
+.mid-market-name {
+  color: black !important;
+}
+
+.footer-terms {
+  font-size: 10px !important;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .advice-cards {
+    display: block !important;
+  }
+  .u-business-advice-card {
+    width: 100%;
+  }
+
+  .popular-images {
+    margin-top: 4%;
+  }
+
+  .main-card-para {
+    font-size: 17px;
+  }
+
+  .lower-card-para {
+    font-size: 10px;
+  }
+
+  .font-italic {
+    font-size: 12px;
+  }
+  .l-business-advice-card {
+    width: 100%;
+    place-content: center;
+  }
+  .card-para {
+    font-size: 10px;
+  }
+  .card-footer-heading {
+    font-size: 10px;
+  }
+  .b-advice-heading {
+    font-size: x-large !important;
+  }
+  .featured-city-cards {
+    margin-top: 5%;
+    flex-wrap: wrap;
+  }
+  .mid-market-business-cards {
+    margin-top: 5%;
+    flex-wrap: wrap;
+  }
+  .state-images {
+    flex-wrap: wrap;
+  }
+  .location-image {
+    width: 100%;
+    margin-top: 4%;
+  }
+  .featured-franchise {
+    display: block !important;
+  }
+  .franchise-images {
+    width: 100% !important;
+    background-size: 100% 100% !important;
+  }
+
+  .business-sell-card {
+    flex-direction: column !important;
+  }
+  .sell-card {
+    width: 100% !important;
+    margin-top: 4%;
+  }
+  .card-inner-body {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .nav {
+    flex-direction: column !important;
+    text-align: center !important;
+    font-size: 30px !important;
+  }
+  .nav-left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 30%;
+  }
+
+  .nav-right {
+    width: -webkit-fill-available;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .advice-cards {
+    display: flex !important;
+  }
+  .u-business-advice-card {
+    width: 50%;
+  }
+
+  .main-card-para {
+    font-size: 22px;
+  }
+
+  .lower-card-para {
+    font-size: 15px;
+  }
+
+  .font-italic {
+    font-size: 17px;
+  }
+  .l-business-advice-card {
+    width: 50%;
+    place-content: center;
+  }
+  .card-para {
+    font-size: 15px;
+  }
+  .card-footer-heading {
+    font-size: 15px;
+  }
+  .b-advice-heading {
+    font-size: xx-large !important;
+  }
+}
